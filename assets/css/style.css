@@ -1,0 +1,99 @@
+/* selector universal */
+* {
+  border: 1px solid bl;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: honeydew;
+}
+
+/* CONTENEDOR******* */
+#div-contenedor {
+  margin: 0;
+  width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* IMAGEN DEL ENCABEZADO */
+.img-enca {
+  padding: 0;
+  margin-bottom: 40px;
+  margin-left: 240px;
+  width: 200px;
+  height: 50px;
+}
+/* IMAGENES DE SECCION PRODUCTOS */
+.imagenes {
+  width: 230px;
+  height: 230px;
+}
+/* SECCION PRINCIPAL */
+#sec-pri {
+  display: block;
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/desierto.jpg);
+  background-size: cover;
+  filter: brightness(120%);
+  margin-top: 40px;
+  border-radius: 10px;
+}
+#sec-pri .img-hea {
+  width: 280px;
+  height: 280px;
+  float: right;
+  position: relative;
+  display: block;
+  top: 10px;
+}
+
+#text-hea {
+  display: inline-block;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+/* SECCION DE PRODUCTOS */
+#sec-pro {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+
+.imagenes {
+  width: 350px;
+  height: 200px;
+  float: left;
+  display: inline-block;
+  margin: 30px;
+  /* border-radius: 10px; */
+  border-radius: 100px 100px /100px 200px;
+}
+#sec-pro .imagenes:hover {
+  margin-top: auto;
+  width: 100%;
+  height: 100%;
+}
+#sec-pro .productos {
+  /* border: 1px solid blue; */
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  height: 100%;
+  display: inline-block;
+}
+.text {
+  width: 35%;
+  margin-right: 50px;
+  margin-top: 110px;
+  text-align: left;
+  /* border: 1px solid blue; */
+  display: inline-block;
+}
+#copyright {
+  text-align: center;
+  margin-top: 100px;
+}
